@@ -1,0 +1,45 @@
+/*
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+	color: #292929;
+	background-color: #fff;
+	background: #fff;
+	margin: 0 auto;
+	max-width: 970px;
+	text-align: left;
+	padding: 5px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+header {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+p {
+    text-indent: 10px;
+}
+*/
+p, h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+/*
+p, li {
+    font-family: 'Noto Serif', serif;
+    color: #252525;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+*/

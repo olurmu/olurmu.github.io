@@ -1,0 +1,1 @@
+<span class="reading-time" title="Təxmini oxuma vaxtı">{% assign words = content | number_of_words %}{% if words < 360 %}1 {% else %}{{ words | divided_by:180 }}{% endif %} dəqiqə</span>
