@@ -4,20 +4,6 @@
     {% include header.html %}
   </head>
   <body class="home-template">
-    <nav id="menu">
-		<a class="close-button">Bağla</a>
-		<div class="nav-wrapper">
-			<p class="nav-label">Menu</p>
-			<ul>
-				<li class="nav-home active" role="presentation"><a href="{{site.url}}"> Ana səhifə</a></li>
-				<li class="nav-twitter"><a href="{{twitter_url}}" title="{{site.twitter}}"><i class="ic ic-twitter"></i> Twitter</a></li>
-				<li class="nav-facebook"><a href="{{facebook_url}}" title="{{site.facebook}}"><i class="ic ic-facebook"></i> Facebook</a></li>
-				<li class="nav-subscribe"><a href="{{site.url}}/subscribe/"><i class="ic ic-mail"></i> Subscribe</a></li>
-				<li class="nav-rss"><a href="{{site.url}}/rss/"><i class="ic ic-rss"></i> Subscribe</a></li>
-			</ul>
-		</div>
-	</nav>
-
     <section id="wrapper">
 		<a class="hidden-close"></a>
 		<header id="blog-header">
@@ -27,9 +13,6 @@
 						<a class="home-button" href="{{site.url}}" title="Home"> Ana səhifə</a>
 					</span>
 				</nav>
-				<span id="menu-button" class="nav-button">
-					<a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
-				</span>
 				<h1 class="blog-name"><a href="{{site.url}}">Olurmu</a></h1>
 				<span class="blog-description">Olurmu</span>
 			</div>
@@ -41,6 +24,5 @@
 		</div>
 	    {% include footer.html %}
 	</section>
-  	<script type="text/javascript" src="{{ site.baseurl }}/assets/js/script.js"></script>
   </body>
 </html>

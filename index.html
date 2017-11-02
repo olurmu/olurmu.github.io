@@ -23,11 +23,11 @@ layout: home
 <nav class="pagination" role="pagination">
 	<div class="inner">
 		{% if paginator.previous_page %}
-		<a class="pagination-next" href="{{paginator.previous_page_path}}"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Newer Posts</span></a>
+		<a class="pagination-next" href="{{paginator.previous_page_path}}"><i class="ic ic-arrow-left"></i> <span class="pagination-label">Yeni məqalələr </span></a>
 		{% endif %}
-		<span class="pagination-info">Page {{paginator.page}} of {{paginator.total_pages}}</span>
+		<span class="pagination-info">{{paginator.page}} / {{paginator.total_pages}}</span>
 		{% if paginator.next_page %}
-		<a class="pagination-prev" href="{{paginator.next_page_path}}"><span class="pagination-label">Older Posts</span> <i class="ic ic-arrow-right"></i></a>
+		<a class="pagination-prev" href="{{paginator.next_page_path}}"><span class="pagination-label">Əvvəlki məqalələr</span> <i class="ic ic-arrow-right"></i></a>
 		{% endif %}
 		<div class="clear"></div>
 	</div>

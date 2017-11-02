@@ -15,17 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: Olurmu
 description: >- # this means to ignore newlines until "baseurl:"
-  Bu mənim ilk yazımdır. Bir neçə dil bilsəm də, öz ana dilimdə bu illər 
-  ərzində öyrəndiklərimi oxuyucularımla bölüşməyə qərar verdim. 
-  Vaxtım olduğu müddətcə sizlərə maraqlı olacağına inandığım mövzularda yazılar yazmağa çalışıram.
+  Azərbaycan dili mənim öz ana dilimdir. Bu saytda vaxtım olduğu müddətcə müxtəlif mövzularda məqalələr yazıram. Ümidvaram ki, yazılarım digər insanlara faydalı olacaqdır.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://olurmu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: olurmu
+github_username:  olurmu
 post_class: post tag-general tag-cupcake
 #permalink: pretty
 permalink: /:categories/:title.html
-paginate: 2
+paginate: 5
 paginate_path: "/page:num/"
 # Build settings
 #markdown: kramdown
